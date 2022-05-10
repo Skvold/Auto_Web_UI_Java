@@ -41,6 +41,8 @@ public class TestCase3 {
         WebElement webElement5 = driver.findElement(By.id("s-result-sort-select_1"));
         webElement5.click();
 
+        Thread.sleep(2000);
+
         WebElement webElement6 = driver.findElement(By.cssSelector(".a-dropdown-prompt"));
         webElement6.click();
 
